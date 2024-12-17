@@ -1,0 +1,391 @@
+@media (max-width: 1600px) {
+    #breakpoint-nav li {
+    font-size: 20px
+   }
+
+   nav button{
+       font-size: 20px;
+   }
+
+   #chapeu{
+    width: 15%;
+   }
+
+   .section08{
+    height:fit-content !important;
+    text-align: center !important;
+   }
+
+}
+
+@media(max-width: 1200px) { 
+   header img{
+    width: 300px;
+   }
+
+   #h1-section01{
+    font-size: 35px;
+   }
+
+   #p-section01{
+    font-size: 1rem !important;
+    line-height: 30px;
+   }
+   #chapeu{
+    display: none;
+   }
+
+   .cards-section03 img{
+    width: 50%;
+   }
+
+   .texto-cards-section01 p{
+    font-size: 16.07px;
+    font-weight: 400;
+    line-height: 29.35px;
+}
+
+.accordion{
+    width: 90% !important;
+}
+     
+
+ }
+
+@media(max-width: 1285px) { 
+   #breakpoint-nav li {
+       font-size: 15px;
+       margin-top: 20px;
+      }
+  
+      nav button{
+          font-size: 15px;
+      }
+
+      #p-section05{
+        width: 60% !important; 
+      }
+
+      .texto-section01>h1{
+        font-family: 'Alexandria';
+        font-size: 35.25px !important;
+        font-weight: 800;
+        line-height: 50px !important;
+        text-align: left;    
+    }  
+
+    #serviços-exclusivos{
+        font-size: 44px;
+    }
+
+    #div-texto-section01{
+        width: 50%;
+    }
+}
+
+@media(max-width:945px) {
+    header{
+        display: none;
+    }
+    .navbar{
+        display: flex !important;
+
+    }
+
+    #espaço-1{
+       height: 0;
+    }
+
+    #espaço-2{
+        height: 0;
+    }
+
+    
+
+    .texto-section01>h1{
+        font-family: 'Alexandria';
+        font-size: 35.25px !important;
+        font-weight: 800;
+        line-height: 50px !important;
+        text-align: center !important;    
+    }  
+
+    .texto-cards-section01 p{
+        font-size: 16.07px;
+        font-weight: 400;
+        line-height: 29.35px;
+        text-align: center !important;
+    }
+
+    #div-texto-section01{
+        width: 80%;
+    }
+
+    .section03{
+        height:auto !important;
+    }
+    .section03 h1{
+        font-size: 34px !important;
+        margin-bottom: 0;
+    }
+    .section03 p,span{
+        font-size: 110% !important;
+        margin-bottom: 0;
+    }
+    .section03 img{
+        width: 80px !important;
+    }
+    .section03 .cards{
+        height: fit-content !important;
+    }
+
+    .texto-section06 h1{
+        font-size: 1.84rem !important;
+        font-weight: bold;
+    }
+    
+    .texto-section06 p{ 
+        font-size: 1.2rem !important;
+        font-weight: bold;
+        line-height: normal;
+    }
+    
+    
+    .texto-section06 button{
+        background-color: black;
+        border-radius: 107px;
+        padding: 13px 55px !important;
+    }
+
+    #botao-navbar{
+        padding: 0px 0px;
+        width:15% !important;
+        height: 50px;
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 450px){
+    .div-laranja-section04{
+        width: 100%;
+        background-color: #FF754B;
+        }
+        #input-footer{
+            border: 4px solid #ff754b;
+            width: 100% !important;
+            outline: none;
+            background-color:  #E8E8E8;
+            padding: 0 10% 0 12%;
+            font-size: 21px;
+        }
+        .texto-section06 button{
+            background-color: black;
+            border-radius: 107px;
+            padding: 15px 35px !important;
+        }
+
+    
+}
+
+.navbar {
+    display: none;
+}
+
+nav ul > li:last-child{
+    font-size:24px;
+}
+
+nav ul{
+    font-size: 25px;
+}
+ 
+.alexandria-font {
+    font-family: "Alexandria", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.espaço-entre-sections{
+    height: 250px;
+}
+
+.texto-section01>h1{
+    font-family: 'Alexandria';
+    font-size: 75.25px;
+    font-weight: 800;
+    line-height: 91.73px;
+    text-align: left;    
+}  
+
+.texto-section01>p{
+    font-family: "Alexandria";
+    font-size: 33.32px;
+    font-weight: 300;
+    line-height: 40.62px;
+    text-align: left;
+}
+.container-fluid {
+    --bs-gutter-x: 0;
+}
+
+.background-section01{
+    background-image: linear-gradient(to right,rgb(0, 0, 0), rgba(0, 0, 0, 0.26)), url(img/section01.png); 
+    background-repeat: no-repeat; 
+    background-position: right; 
+    background-size: contain;
+}
+
+.cards-section02{
+    width: 361.12px;
+    height: 345.07px;
+    margin-top: 100px;
+    gap: 0px;
+    border-radius: 23.11px;
+    border-top: 20px solid #FF754B ;
+    background-color: #FFFFFF33;
+}
+
+.borda-laranja{
+    width: 357px;
+    height: 21.4px;
+    left:10px;
+    gap: 0px;
+    border-radius: 21.4px 21.4px 0px 0px;
+    border-top: 20px solid #FF754B ;
+}
+
+.texto-cards-section01 h4{
+    font-size: 29.42px;
+    font-weight: 800;
+    line-height: 35.87px;
+    
+}
+.texto-cards-section01 p{
+    font-size: 24.07px;
+    font-weight: 400;
+    line-height: 29.35px;
+
+}
+
+.cards-section03{
+    height: 227.03px;
+}
+
+.cards-section03 img{
+    width: 100px;
+}
+
+.texto-cards-section03 h1{
+    font-size: 53.5px;
+    font-weight: 800;
+    line-height: 65.22px;
+    text-align: left;
+    text-shadow: 5px 5px 10px black;
+}
+
+.texto-cards-section03 span{
+    font-size: 29.42px;
+    font-weight: 700;
+    line-height: 35.87px;
+}
+
+.texto-cards-section03 p{
+    font-size: 29.42px;
+    font-weight: 400;
+    line-height: 35.87px;
+}
+
+
+.div-laranja-section04{
+width: 106%;
+background-color: #FF754B;
+}
+
+.texto-cards-section04 h1{
+font-size: 3.8rem ;
+font-weight: 800;
+line-height: 65.22px;
+text-align: left;
+color: white;
+}
+
+.texto-cards-section04 p, ul{
+    margin:30px 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 29.35px;
+    text-align: left;
+    color: white;
+}
+
+.cards-section04-card-0{
+    width: 346.4px;
+    height: 399.9px;
+    border-radius: 133.75px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.cards-section04-card-1{
+    width: 30.93rem;
+    height: 37.95rem;
+    background-color: #333333;
+}
+
+#p-section05{
+    width: 30%;
+  }
+
+.blend-background{
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-color: #ee5c30;
+    background-blend-mode: screen;
+    height: 640.65px;
+}
+
+.texto-section06{
+    color: black;
+}
+
+.texto-section06 h1{
+    font-size: 3.84rem;
+    font-weight: bold;
+}
+
+.texto-section06 p{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: normal;
+}
+
+
+.texto-section06 button{
+    background-color: black;
+    border-radius: 107px;
+    padding: 23px 85px;
+}
+
+.section08{
+    border-top:13px solid #FF754B;
+    height: 530.98px;
+}
+
+#input-footer{
+    border: 4px solid #ff754b;
+    width: 27.12rem;
+    outline: none;
+    background-color:  #E8E8E8;
+    padding: 0 10% 0 12%;
+    font-size: 21px;
+}
+
+.accordion{
+    width: 36%;
+}
+
+.accordion button:focus{
+    outline: #FF754B;
+}
+
